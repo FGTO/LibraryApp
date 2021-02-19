@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{0E93FE2C-1853-41CD-8864-9FC91A349C4D}|Default">
+  <MonoDevelop.Ide.ItemProperties.LibraryApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryApp/Migrations/20210219193318_CreateDb.cs">
+    <Files>
+      <File FileName="LibraryApp/Migrations/20210219193318_CreateDb.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LibraryApp" expanded="True">
+            <Node name="LibraryApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True">
+                <Node name="20210219193318_CreateDb.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="BookList" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
