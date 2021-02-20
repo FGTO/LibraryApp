@@ -23,5 +23,19 @@ namespace LibraryApp.Pages.BookList
         {
 
         }
+
+        public async Task<IActionResult> OnPost(Book bookObj)
+        {
+            if (ModelState.IsValid)
+            {
+                await _db.Book.AddAsync(Book);
+                await _db.SaveChangesAsync();
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
+        }
     }
 }
