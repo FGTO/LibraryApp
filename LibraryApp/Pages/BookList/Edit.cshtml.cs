@@ -13,7 +13,7 @@ namespace LibraryApp.Pages.BookList
         private LibraryDbContext _db;
 
         public EditModel(LibraryDbContext db)
-        {
+        { 
             _db = db;
         }
 
@@ -24,5 +24,9 @@ namespace LibraryApp.Pages.BookList
         {
             Book = await _db.Book.FindAsync(id);
         }
+
+
+
+
     }
 }

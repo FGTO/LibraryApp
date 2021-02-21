@@ -25,7 +25,7 @@ namespace LibraryApp.Pages.BookList
 
         }
 
-        public async Task<IActionResult> OnPost()
+        public async Task<IActionResult>  OnPost()
         {
             if (ModelState.IsValid)
             {
