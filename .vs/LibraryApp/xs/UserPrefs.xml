@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{0E93FE2C-1853-41CD-8864-9FC91A349C4D}|Default">
   <MonoDevelop.Ide.ItemProperties.LibraryApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryApp/Pages/BookList/Create.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryApp/Pages/BookList/Create.cshtml.cs">
     <Files>
-      <File FileName="LibraryApp/Pages/BookList/Create.cshtml" Line="19" Column="77" />
+      <File FileName="LibraryApp/Pages/BookList/Create.cshtml" Line="48" Column="16" />
       <File FileName="LibraryApp/Model/Book.cs" Line="1" Column="1" />
+      <File FileName="LibraryApp/Pages/BookList/Index.cshtml" Line="52" Column="90" />
+      <File FileName="LibraryApp/Pages/BookList/Edit.cshtml" Line="42" Column="51" />
+      <File FileName="LibraryApp/Pages/BookList/Edit.cshtml.cs" Line="29" Column="1" />
+      <File FileName="LibraryApp/Pages/BookList/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="LibraryApp/Pages/BookList/Create.cshtml.cs" Line="28" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +23,14 @@
               <Node name="Model" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="BookList" expanded="True">
-                  <Node name="Create.cshtml" expanded="True" selected="True" />
+                  <Node name="Create.cshtml" expanded="True">
+                    <Node name="Create.cshtml.cs" selected="True" />
+                  </Node>
+                  <Node name="Edit.cshtml" expanded="True" />
                   <Node name="Index.cshtml" expanded="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
             </Node>
