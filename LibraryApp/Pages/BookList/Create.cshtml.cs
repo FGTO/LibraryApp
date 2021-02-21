@@ -17,6 +17,7 @@ namespace LibraryApp.Pages.BookList
             _db = db;
         }
 
+        [BindProperty]
         public Book Book { get; set; }
 
         public void OnGet()
@@ -24,7 +25,7 @@ namespace LibraryApp.Pages.BookList
 
         }
 
-        public async Task<IActionResult> OnPost(Book bookObj)
+        public async Task<IActionResult> OnPost()
         {
             if (ModelState.IsValid)
             {
