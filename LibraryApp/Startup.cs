@@ -26,6 +26,7 @@ namespace LibraryApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<LibraryDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
@@ -52,7 +53,8 @@ namespace LibraryApp
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
+                endpoints.MapRazorPages(); 
             });
         }
     }
